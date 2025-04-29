@@ -776,6 +776,8 @@ func main() {
 			writer.WriteString(line)
 		}
 	}
+
+	log.Printf("Done writing the file: %s", file.Name())
 }
 
 func sample(s []string) string {
